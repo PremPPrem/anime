@@ -1,0 +1,60 @@
+.header {
+    width: 100%;
+    height: 100vh;
+
+    h1 {
+        margin: 2rem auto;
+        text-align: center;
+        
+    }
+}
+
+
+
+.create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    // height: 100vh;
+
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 0.25rem;
+        margin-top: 0.75rem;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 16px;
+        margin-bottom: 0.75rem;
+        border: 2px solid #ffa500;
+
+     
+
+    
+      }
+
+      button {
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 20px;
+        margin-top: 1.5rem;
+        font-weight: bold;
+        color: #fff;
+        border: 2px solid #ffa500;
+      background: #ffa500;
+      cursor: pointer;
+       
+      
+      &:hover {
+        color: #000;
+      }
+      }
+}
